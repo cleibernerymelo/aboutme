@@ -31,20 +31,21 @@
     </header>
     <section>
       <form for="" action="Contacts.html" method="post">
-        <label>Nome</label><br />
-        <input name="Nome" /><br />
-        <label>Email</label><br />
-        <input type="email" name="Email" /> <br />
-        <label>Telefone</label><br />
-        <input type="mobile-phone" name="phone" /><br />
-        <label>Assunto</label><br />
-        <select name="assunto" id="assunto">
+        <label for="nome">Nome</label><br />
+        <input id="nome" name="Nome" /><br />
+        <label for="email">Email</label><br />
+        <input id="email" type="email" name="Email" /> <br />
+        <label for="telefone">Telefone</label><br />
+        <input id="telefone" type="mobile-phone" name="phone" /><br />
+        <label for="assunto">Assunto</label><br />
+        <select id="assunto" name="assunto" id="assunto">
           <option value="sug">Sugestão</option>
           <option value="rec">Reclamação</option>
           <option value="inf">Informação</option></select
         ><br />
-        <label>Comentario</label><br />
+        <label for="comentario">Comentario</label><br />
         <textarea
+          id="comentario"
           name="comentario"
           id="comentario"
           cols="30"
