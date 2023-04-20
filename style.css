@@ -21,20 +21,24 @@
 }
 
 body {
-  font: 400 1rem var(--body-font);
-  color: var(--text-color);
-  background: var(--body-color);
-  -webkit-font-smoothing: antialiased;
+  padding-left: 30px;
 }
 
 #menu {
   list-style: none; /* remove os marcadores da lista */
   display: flex; /* torna a lista um contêiner flexível */
   flex-wrap: wrap; /* permite que os itens quebrem para a próxima linha */
+  padding-left: 0px;
+  font-size: 30px;
+
 }
 
 #item{
   margin-right: 10px; /* adiciona um espaço entre os itens */
+}
+
+p {
+  font-size: 30px;
 }
 
 body {
