@@ -1,0 +1,76 @@
+:root {
+  --header-height: 4.5rem;
+
+  /* colors */
+  --hue: 154;
+  /* HSL color mode */
+  --base-color: hsl(var(--hue) 36% 57%);
+  --base-color-second: hsl(var(--hue) 65% 88%);
+  --base-color-alt: hsl(var(--hue) 57% 53%);
+  --title-color: hsl(var(--hue) 41% 10%);
+  --text-color: hsl(0 0% 46%);
+  --text-color-light: hsl(0 0% 98%);
+  --body-color: hsl(0 0% 98%);
+
+  /* fonts*/
+  --title-font-size: 1.875rem;
+  --subtitle-font-size: 1rem;
+
+  --title-font: 'Poppins', sans-serif;
+  --body-font: 'DOM Sans', sans-serif;
+}
+
+body {
+  font: 400 1rem var(--body-font);
+  color: var(--text-color);
+  background: var(--body-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+#menu {
+  list-style: none; /* remove os marcadores da lista */
+  display: flex; /* torna a lista um contêiner flexível */
+  flex-wrap: wrap; /* permite que os itens quebrem para a próxima linha */
+}
+
+#item{
+  margin-right: 10px; /* adiciona um espaço entre os itens */
+}
+
+body {
+  font: 400 1rem var(--body-font);
+  color: var(--text-color);
+  background: var(--body-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+.title {
+  font: 700 var(--title-font-size) var(--title-font);
+  color: var(--title-color);
+  -webkit-font-smoothing: auto;
+}
+
+.subtitle {
+  font: 300 var(--title-font-size) var(--title-font);
+  color: var(--title-color);
+  -webkit-font-smoothing: auto;
+}
+
+.section {
+  margin-bottom: 1rem;
+}
+
+.section  {
+  font-size: var(--subtitle-font-size);
+}
+
+.section  {
+  margin-bottom: 4rem;
+}
+
+.section  {
+  color: var(--base-color);
+}
+
+
+
